@@ -1,0 +1,24 @@
+GET /api/get_nonce/?controller=user&amp; method=generate_auth_cookie HTTP/1.1
+Host: soulcadeinteractive.com
+cache-control: no-cache
+Postman-Token: 153916dc-f082-456a-ba5b-7d51f361c49f
+
+GET /api/user/generate_auth_cookie/?nonce=8ebd9a7509&amp; username=nsekirime&amp; password=2186634Ns!! HTTP/1.1
+Host: soulcadeinteractive.com
+cache-control: no-cache
+Postman-Token: 5703bc84-867a-4ccc-850c-92ceaed44eb4
+
+GET /api/user/validate_auth_cookie/?cookie=nsekirime|1560133940|pMQWrl0nc5SveyPuhDlx704VO18WTwJ25UDarXm75pb|7751c8e58979085f56cd7a67822507d24917fc30274d4432a9e5028d72b9a2e5 HTTP/1.1
+Host: soulcadeinteractive.com
+cache-control: no-cache
+Postman-Token: e1235ced-5ea3-4d4b-9684-73ba7b1b5f81
+
+GET /api/user/get_user_meta/?meta_key=&amp; cookie=nsekirime|1560133940|pMQWrl0nc5SveyPuhDlx704VO18WTwJ25UDarXm75pb|7751c8e58979085f56cd7a67822507d24917fc30274d4432a9e5028d72b9a2e5 HTTP/1.1
+Host: soulcadeinteractive.com
+cache-control: no-cache
+Postman-Token: d4a59d7f-ad0d-4253-8ddd-4a61fc3b4dc2
+
+GET /api/user/update_user_meta/?cookie=nsekirime|1560133940|pMQWrl0nc5SveyPuhDlx704VO18WTwJ25UDarXm75pb|7751c8e58979085f56cd7a67822507d24917fc30274d4432a9e5028d72b9a2e5&amp; meta_key=test-meta-value&amp; meta_value=test-value HTTP/1.1
+Host: soulcadeinteractive.com
+cache-control: no-cache
+Postman-Token: 804fff06-95f0-4b62-8146-6cc52de0472a
